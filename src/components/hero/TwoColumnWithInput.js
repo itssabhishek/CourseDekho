@@ -53,24 +53,28 @@ export default ({ roundedHeaderButton }) => {
         <TwoColumn>
           <LeftColumn>
             <Heading>
-              Beautiful React Templates <span tw="text-primary-500">for you.</span>
+              Find Best Courses <span tw="text-primary-500">for you.</span>
             </Heading>
             <Paragraph>
-              Our templates are easy to setup, understand and customize. Fully modular components with a variety of
-              pages and components.
+              We're backed with AI to help you find your best courses amongst a
+              variety of choices
             </Paragraph>
             <Actions>
               <input type="text" placeholder="Search Courses here" />
               <button>Get Started</button>
             </Actions>
             <CustomersLogoStrip>
-              <p>Our TRUSTED Customers</p>
+              <p>Our Course Providers </p>
               <img src={CustomersLogoStripImage} alt="Our Customers" />
             </CustomersLogoStrip>
           </LeftColumn>
           <RightColumn>
             <IllustrationContainer>
-              <img tw="min-w-0 w-full max-w-lg xl:max-w-3xl" src={DesignIllustration} alt="Design Illustration" />
+              <img
+                tw="min-w-0 w-full max-w-lg xl:max-w-3xl"
+                src={DesignIllustration}
+                alt="Design Illustration"
+              />
             </IllustrationContainer>
           </RightColumn>
         </TwoColumn>
